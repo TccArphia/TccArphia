@@ -1,0 +1,261 @@
+<!DOCTYPE html> <!--abre documento-->
+<html lang="pt-br"> <!--linguagem do site -->
+<head> <!-- guia -->
+    <meta charset="UTF-8"> <!--linguagem google entender-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="quadradocirculpag.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="arphiafacebookcss.css"> <!--css-->
+    <link rel="stylesheet" href="botaoanimado.css">
+    <link rel="stylesheet" href="cookies.css">
+    <title>PÁGINA INICIAL</title> <!-- nome guia-->
+</head>
+<body> <!-- site-->
+    <nav>
+    <!--inicio logo e icones-->
+   <div class="nav-left"> <!--logo-->
+    <img src="logo.png" alt="nome do site" class="logo">
+   </div> <!--apenaslogo-->
+   <!--fim logo e icones-->
+
+   <!--inicio menu e busca-->
+   <div class="nav-right"> <!--barra de pesquisa-->
+
+    <!--inicio busca-->
+    <div class="search-box">
+        <img src="search.png" alt="icone de busca">
+        <input type="text" name="p" placeholder="Pesquisar">
+    </div> 
+   <!-- fim busca --> 
+
+   <!--inicio perfil foto -->
+   <div class="nav-user-icon online" onclick="abreConfig()">
+    <img src="profile-pic.png" alt="Maykon Silveira">
+   </div>
+
+   </div> <!--perfil e menu-->
+   <!--fim menu e busca-->
+   <!-- INICIO CONFIGURAÇÕES -->
+   <div class="settings-menu">
+   <div id="dark-btn"> <!--botão escuro claro -->
+        <span></span>
+    </div>
+    <div class="settings-menu-inner"> <!--menu-->
+         <!-- INICIO FOTO POST USER PERFIL-->
+   <div class="user-profile">
+    <img src="profile-pic.png" alt="">
+    <div>
+      <p>Maykon Silveira</p>
+      <a href="perfil.html">Meu Perfil</a>
+    </div>
+   </div>
+<!--sai perfil do menu-->
+    <!-- FIM FOTO POST USER PERFIL-->
+    <hr> <!--separa linha-->
+    <!-- INICIO FOTO POST USER PERFIL-->
+   <div class="user-profile">
+    <img src="bixinho.png" alt="">
+    <div>
+      <p>Sobre o grupo e parcerias</p>
+      <a href="sobrenos.html">Saber Mais</a>
+    </div>
+   </div> <!--sai o icone pedido de ajuda do menu-->
+    <!-- FIM FOTO POST USER PERFIL-->
+    <hr>
+    <!-- INICIO LINKS DE CONFIGURAÇÃO -->
+    <div class="settings-links">
+        <img src="settings.png" alt="" class="settings-icon">
+        <a href="#">Configurações e Privacidade <img src="arrow.png" alt="" width="10px"></a>
+    </div> <!--sai o icone da configurção do menu-->
+    <!-- FIM LINKS DE CONFIGURAÇÃO -->
+
+    <!-- INICIO LINKS DE CONFIGURAÇÃO -->
+    <div class="settings-links">
+        <img src="help.svg" alt="" class="settings-icon">
+        <a href="#">Ajuda e Suporte<img src="arrow.png" alt="" width="10px"></a>
+    </div><!--sai o icone da configurção do menu-->
+    <!-- FIM LINKS DE CONFIGURAÇÃO -->
+
+     <!-- INICIO LINKS DE CONFIGURAÇÃO -->
+     <div class="settings-links">
+        <img src="logout.svg" alt="" class="settings-icon">
+        <a href="#">Sair<img src="arrow.png" alt="" width="10px"></a>
+    </div><!--sai o icone da configurção do menu-->
+    <!-- FIM LINKS DE CONFIGURAÇÃO -->
+    </div>
+   </div>
+   <!-- FIM CONFIGURAÇÕES -->
+    </nav> <!--a header fica grandona-->
+   <!-- INICIO CORPO DO SITE -->
+    <div class="container"><!--as fotos ficam enormes-->
+
+        <!-- INICIO BARRA LATERAL ESQUERDA SITE -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+            <!-- <a href="#"><img src="/media/info/26B6-B68B/TCCarphia/imgs/news.png" alt="">Ultimas noticias</a>
+            <a href="#"><img src="/media/info/26B6-B68B/TCCarphia/imgs/friends.png" alt="">Amigos</a>
+            <a href="#"><img src="/media/info/26B6-B68B/TCCarphia/imgs/group.png" alt="">Grupos</a>
+            <a href="#"><img src="/media/info/26B6-B68B/TCCarphia/imgs/marketplace.png" alt="">Marketplace</a>-->
+            <a href="quizz.html"><img src="fantamasquizz.png" alt="">Quizz</a>
+            <a href="#"></a>
+        </div>
+    
+        </div><!--a sidebar esquerda some-->
+        <!-- FIM BARRA LATERAL ESQUERDA SITE -->
+
+        <!-- INICIO CONTEÚDO DO SITE -->
+        <div class="main-content"><!--o coisa fica todo desorganizado-->
+
+            <!-- INICIO POST USER PERFIL-->
+            <div class="write-post-container"><!--o coisa de postar fica transparente-->
+
+            <!-- INICIO FOTO POST USER PERFIL-->
+                 <div class="user-profile">
+                  <img src="profile-pic.png" alt="">
+                  <div>
+                    <p>Maykon Silveira</p>
+                    <small>Publico <i class="fa-solid fa-caret-down"></i></small>
+                  </div>
+                 </div><!--o icone da publicação sai-->
+
+            <!-- FIM FOTO POST USER PERFIL-->
+
+             <!-- INICIO POST TEXTAREA-->
+            <div class="post-input-container">
+                      <textarea rows="3" placeholder="O que você pensando, Maykon?"></textarea><!--a pergunta da publicação sai-->
+                      <div class="iconsAndButton">
+                        <div class="icons">
+                            <button class="btnFileForm"><img src="add-img.png" alt="Adcionar uma imagem!"></button>
+                            <button class="btnFileForm"><img src="add-gif.png" alt="Adcionar um gif!"></button>
+                            <button class="btnFileForm"><img src="add-vid.png" alt="Adcionar um video!"></button><!--icones da publicação-->
+                        </div>
+                      </div>
+                      <button class="share-button-border">
+                        <i class="fa fa-check"></i> Publicar
+                    </button>
+                      <!-- INICIO LINKS DO POST -->
+                        <!-- INICIO LINKS DO POST -->
+            </div>
+            <!-- FIM POST TEXTAREA-->
+            </div>
+             <!-- FIM POST USER PERFIL-->
+        
+         <!-- INICIO POST FEED -->
+         <div class="post-container"><!--o feed volta pro centro-->
+              <!-- INICIO POST PERFIL -->
+
+            <div class="post-row">
+            <!-- INICIO FOTO POST USER PERFIL-->
+                 <div class="user-profile">
+                    <img src="profile-pic.png" alt="">
+                    <div>
+                      <p>Maykon Silveira</p>
+                      <small>26 de Abril de 2032 às 09:12hs</small>
+                    </div>
+                   </div><!--o icone do feed some-->
+  
+              <!-- FIM FOTO POST USER PERFIL-->
+
+              <a href="#"><i class="fa-solid fa-caret-down"></i></a>
+            </div><!--desconfigura a publicação-->
+              <!-- FIM POST PERFIL -->
+              <p class="post-text">
+                Criando um site do 0 e fácil <span>@wordpress</span> e elementor - Maykon Silveira
+                <a href="#">#MaykonSilveira</a>
+                <a href="#">#Wordpress</a>
+              </p>
+              <img src="feed-image-5.jpg" alt="" class="post-img"><!--sai a foto do cachorro-->
+              <!-- INICIO ICONES FEED -->
+              <div class="post-row"> 
+                <div class="activity-icons">
+                    <div><img src="like.png" alt="">170M</div>
+                    <div><img src="comments.png" alt="">35,2K</div>
+                    <div><img src="share.png" alt=￼Ultimas noticias>
+                      </div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="profile-pic.png" alt="">
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+              </div>
+              <!-- FIM ICONES FEED -->
+            </div>
+           <button type="button" class="load-more-btn">Leia Mais</button>
+        </div>
+          <!-- FIM POST FEED -->
+
+        <!-- FIM CONTEÚDO DO SITE -->
+
+    <!-- INICIO BARRA LATERAL DIREITA SITE -->
+        <div class="right-sidebar"><!--a sidebar direita desconfigura-->
+
+    <!-- INICIO TITULO BARRA LATERAL DIREITA SITE -->
+            <div class="sidebar-title">
+                <h4>Eventos</h4>
+                <a href="#">Veja Todos</a>
+            </div>
+    <!-- FIM TITULO BARRA LATERAL DIREITA SITE -->
+
+      <!-- INÍCIO EVENTO BARRA LATERAL DIREITA SITE -->
+    <div class="event">
+        <div class="left-event">
+        <h3>12</h3>
+        <span>Setembro</span>
+        </div>
+
+        <div class="right-event">
+            <h4>Gincana</h4>
+            <p> <i class="fa-solid fa-location-dot"></i> Colégio Zardo</p>
+            <a href="#">Mais Informações</a>
+        </div>
+
+    </div>
+     <!-- FIM EVENTO BARRA LATERAL DIREITA SITE --> 
+        
+
+      <!-- INÍCIO EVENTO BARRA LATERAL DIREITA SITE -->
+    <div class="event">
+        <div class="left-event">
+        <h3>29</h3>
+        <span>Novembro</span>
+        </div>
+
+        <div class="right-event">
+            <h4>Trabalho de conclusão de curso</h4>
+            <p> <i class="fa-solid fa-location-dot"></i> Colégio Zardo</p>
+            <a href="#">Mais Informações</a>
+        </div>
+
+    </div>
+     <!-- FIM EVENTO BARRA LATERAL DIREITA SITE -->
+     
+     <!-- INICIO TITULO BARRA LATERAL DIREITA SITE -->
+     <div class="sidebar-title">
+        <h4>Patrocinados</h4>
+        <a href="#">Fechar</a>
+    </div>
+    <!-- FIM TITULO BARRA LATERAL DIREITA SITE -->
+    <img src="raposa.jpeg" alt="" class="sidebar-ads">
+    <!-- FIM BARRA LATERAL DIREITA SITE -->
+    
+    </div>
+
+</div>
+    <!-- FIM CORPO DO SITE -->
+<div class="cookies-msg" id="cookies-msg">
+    <div class="cookies-txt">
+        <p>Este site utiliza cookies para melhorar sua experiência de navegação. Ao continuar, você concorda com nossos Termos de Privacidade 
+          e o uso de cookies para personalizar conteúdo e anúncios.</p>
+  
+        <div class="cookies-bnt">
+            <button onclick="aceito()">Aceito</button>
+        </div>
+    </div>
+</div> <!--cookies mensagem -->
+
+<script src="arphiafacebookjs.js"></script>
+<script src="cookies.js"></script>
+</body>
+<script src="https://kit.fontawesome.com/b7b331560d.js" crossorigin="anonymous"></script>
+</html>

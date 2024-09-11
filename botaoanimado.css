@@ -1,0 +1,23 @@
+.share-button-border {
+    background-color: white;
+    color: #17a2b8;
+    border: 2px solid #17a2b8;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease;
+    position: relative;
+    left: 595px;
+    bottom: 15px
+}
+
+.share-button-border:active {
+    transform: scale(0.95);
+}
+
+.share-button-border i {
+    margin-right: 10px;
+}

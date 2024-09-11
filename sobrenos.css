@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box; /*desconfigura totalmente o site*/
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: 100vh;
+    background-color: #474F7A;
+    padding: 0;
+    margin: 0;
+}
+/* h1{
+    font-size: 5e;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    top: 17%;
+    right: 85%;
+    color: #a1c0c9
+}
+main{
+    color: rgb(196, 196, 196);
+} */
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #1F2544;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+img{
+    width: 86px; /*tamanho logo, ideal pequeno porém video 160 pois logo (e icones) homem grande (86)*/
+    margin-right: 45px;
+    align-items: center;
+}
+#h-titulo{
+    width: 80%;
+}
+p{
+    font-size: 5e;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    top: 21%;
+    bottom: 50%;
+    color: rgb(196, 196, 196);
+    padding-left: 8%;
+    padding-right: 8%;
+}
+main{
+    font-size: 5e;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    top: 49%;
+    bottom: 50%;
+    color: rgb(196, 196, 196);
+    padding-left: 8%;
+    padding-right: 8%;
+}
+ .content{ 
+    height: 500px;
+    width: 880px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 1%;
+}
+
+.content .slide img{ 
+    height: 100%;
+    width: 100%;
+}
+
+.navigation{
+    position: absolute;
+    bottom: 258px;
+    left: 47%;
+    display: flex;
+}
+
+.bar{ 
+    width: 15px;
+    height: 15px;
+    border:2px solid rgb(255, 255, 255);
+    margin: 4px;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: .5s ease;
+}
+
+.bar:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+input{ 
+    display: none;
+}
+
+.slides{ 
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide{ 
+    width: 20%;
+    transition: .6s ;
+}
+
+#slide1:checked ~ .s1{ 
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1{
+    margin-left: -60%;
+}
